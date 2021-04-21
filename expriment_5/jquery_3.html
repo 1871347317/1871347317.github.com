@@ -1,0 +1,41 @@
+<html>
+<head>
+<script src="/jquery/jquery-1.11.1.min.js"></script>
+<script type="text/javascript"> 
+$(document).ready(function(){
+  $(".flip").click(function(){
+    $(".panel").slideUp("slow");
+  });
+});
+</script>
+ 
+<style type="text/css"> 
+div.panel,p.flip
+{
+margin:0px;
+padding:20px;
+text-align:center;
+background:#e5eecc;
+border:solid 1px #c3c3c3;
+}
+div.panel
+{
+height:180px;
+}
+</style>
+</head>
+ 
+<body>
+ 
+<div class="panel">
+<p>沙雕文案</p>
+<p>我以为我是正义的伙伴，没想到我是傻逼的朋友</p>
+<p>当你上厕所没纸的时候你就知道好为什么测试也叫洗手间了</p>
+<p>对银行无语了，每次取钱都显示余额不足，没钱开你妈的银行</p>
+<p>夜深了，我拿起了一本书，盖在了泡面上</p>
+</div>
+ 
+<p class="flip">收起</p>
+ 
+</body>
+</html>
